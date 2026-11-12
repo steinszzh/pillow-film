@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# 渲染产物（体积大，不入库）
+frames/
+frames3d/
+frames_v2/
+geom3d/
+geom_v2/
+voices/
+*.mp4
+*.wav
+*.mp3
+*.log
+concat*.txt
+contact_sheet*.jpg
+storyboard.html
+storyboard-3d.html
+
+# 但保留文档里的示例渲染图
+!docs/*.png
